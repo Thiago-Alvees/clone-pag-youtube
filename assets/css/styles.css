@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 20px 20px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    
+}
+
+.menu{
+    display: flex
+}
+
+.logo img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.search form{
+    margin-left: 280px;
+}
+
+form input{
+    width: 348px;
+    padding-left: 20px;
+    height: 30px;
+}
+
+form button{
+    width: 50px;
+    height: 30px;
+    margin-left: -10px;
+}
+
+.menu-end{
+    margin-left: 280px;
+    display: flex;
+     
+}
+
+.menu-end img{
+    width: 30px;
+    margin-right: 20px;
+
+    cursor: pointer;
+}
+
+main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.video iframe{
+    margin-bottom: 10px;
+}
+
+.canal{
+    margin-top: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 2;
+}
+
+.canal img{
+    width: 42px;
+    cursor: pointer;
+    
+}
+
+.canal button{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.canal #icon{
+    width: 25px;
+}
+
+.nome-canal{
+    font-size: 12px;
+}
+
+.info{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info span{
+    margin-top: 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+} 
+
+.op-video{
+    width: 350px; 
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 160px;
+    height: 90px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.info-video h5{
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.info-video span{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.info-video p {
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 2px;
+}
